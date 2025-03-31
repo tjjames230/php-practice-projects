@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,6 +10,14 @@
 
 <body>
 	<h1>Post login page</h1>
+
+	<?php
+
+	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+		echo 'true';
+	}
+
+	?>
 </body>
 
 </html>

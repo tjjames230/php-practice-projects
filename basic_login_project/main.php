@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,16 +19,6 @@
 		<input type="text" name="password" id="password">
 		<button type="submit">Submit</button>
 	</form>
-
-
-	<?php
-
-	session_start();
-
-
-
-	?>
-
 
 </body>
 
